@@ -1,0 +1,51 @@
+
+
+**** Abrir projeto no Intellij IDEA ****
+ 
+ File *** close *** projet *** projets *** open
+ 
+ 
+ **** Fazer Cadastro no CMD ****
+ 
+ Curl - X GET https//localhost:8080/api/v1/restricoes/9900-0099
+ 
+ 
+ **** Windows ****
+ 
+ ** Como consultar portas no CMD
+ 
+ netstat -a -n -o
+ 
+ obs: pegar o PID
+ 
+ ** Matar porta
+ 
+ tskill pid + PID = numero
+ tskill = numero
+ 
+ 
+ **** Instalando o Newman ****
+ 
+  1º instalar o Node.js
+  2º abrir o CMD 
+  3º npm install -g newman
+  4º confirar instalação padrão qualquer um
+  5º newman -v
+  6º npm install -g newman - reporter - html
+  
+  
+ *** Roda o projeto
+ 
+ 1º salvar a coleção em uma pasta no Explorador de arquivos
+ 2º abrir o CMD
+ 3º newman run c:\postman\Certificado.postman_collection.json
+ 
+ 
+ *** Colocar variavel
+ -e c:\postman ....
+ 
+ *** Rodar coleção 3 vezes
+ newman run -n 3 c:\postman\
+ 
+ 
+ 
